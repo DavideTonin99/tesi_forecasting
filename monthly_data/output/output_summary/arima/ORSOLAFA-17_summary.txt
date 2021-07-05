@@ -1,0 +1,23 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:            ORSOLAFA-17   No. Observations:                   20
+Model:                          ARIMA   Log Likelihood                 -84.836
+Date:                Fri, 02 Jul 2021   AIC                            173.672
+Time:                        15:22:00   BIC                            175.663
+Sample:                    01-31-2019   HQIC                           174.061
+                         - 08-31-2020                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        143.9025      3.765     38.217      0.000     136.523     151.282
+sigma2       283.1029    107.513      2.633      0.008      72.382     493.824
+===================================================================================
+Ljung-Box (L1) (Q):                   0.04   Jarque-Bera (JB):                 0.32
+Prob(Q):                              0.83   Prob(JB):                         0.85
+Heteroskedasticity (H):               2.63   Skew:                             0.05
+Prob(H) (two-sided):                  0.23   Kurtosis:                         2.39
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

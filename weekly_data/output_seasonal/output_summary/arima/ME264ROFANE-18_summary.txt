@@ -1,0 +1,22 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:         ME264ROFANE-18   No. Observations:                   80
+Model:             ARIMA(0, 1, 0, 52)   Log Likelihood                -126.323
+Date:                Fri, 02 Jul 2021   AIC                            254.646
+Time:                        12:29:30   BIC                            255.978
+Sample:                    01-06-2019   HQIC                           255.053
+                         - 07-12-2020                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+sigma2       485.2940    145.889      3.326      0.001     199.357     771.231
+===================================================================================
+Ljung-Box (L1) (Q):                   0.96   Jarque-Bera (JB):                 1.79
+Prob(Q):                              0.33   Prob(JB):                         0.41
+Heteroskedasticity (H):               1.03   Skew:                            -0.43
+Prob(H) (two-sided):                  0.97   Kurtosis:                         3.89
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

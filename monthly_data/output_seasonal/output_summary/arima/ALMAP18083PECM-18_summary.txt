@@ -1,0 +1,22 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:      ALMAP18083PECM-18   No. Observations:                   20
+Model:             ARIMA(0, 1, 0, 12)   Log Likelihood                 -38.582
+Date:                Fri, 02 Jul 2021   AIC                             79.165
+Time:                        16:04:50   BIC                             79.244
+Sample:                    01-31-2019   HQIC                            78.629
+                         - 08-31-2020                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+sigma2       904.6928    729.241      1.241      0.215    -524.594    2333.980
+===================================================================================
+Ljung-Box (L1) (Q):                   1.18   Jarque-Bera (JB):                 0.57
+Prob(Q):                              0.28   Prob(JB):                         0.75
+Heteroskedasticity (H):               1.15   Skew:                            -0.39
+Prob(H) (two-sided):                  0.91   Kurtosis:                         1.94
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).

@@ -1,0 +1,28 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:               A07CL-17   No. Observations:                   80
+Model:                 ARIMA(2, 0, 2)   Log Likelihood                -417.617
+Date:                Fri, 02 Jul 2021   AIC                            847.233
+Time:                        13:45:14   BIC                            861.525
+Sample:                    01-06-2019   HQIC                           852.963
+                         - 07-12-2020                                         
+Covariance Type:                  opg                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const        145.9022      9.754     14.958      0.000     126.784     165.020
+ar.L1         -0.0791      0.187     -0.423      0.672      -0.446       0.288
+ar.L2          0.9209      0.182      5.063      0.000       0.564       1.277
+ma.L1          0.1508      0.361      0.418      0.676      -0.557       0.858
+ma.L2         -0.8484      0.284     -2.986      0.003      -1.405      -0.292
+sigma2      1989.5601      0.005   3.97e+05      0.000    1989.550    1989.570
+===================================================================================
+Ljung-Box (L1) (Q):                   0.09   Jarque-Bera (JB):                 2.01
+Prob(Q):                              0.76   Prob(JB):                         0.37
+Heteroskedasticity (H):               0.74   Skew:                             0.29
+Prob(H) (two-sided):                  0.44   Kurtosis:                         2.48
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
+[2] Covariance matrix is singular or near-singular, with condition number 2.26e+23. Standard errors may be unstable.
