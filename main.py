@@ -21,7 +21,9 @@ SEASONAL_PERIOD = {
 EXECUTE_NAIVE = True
 EXECUTE_ARIMA = True
 EXECUTE_STLARIMA = True
+# save forecast results of best with MAE
 SAVE_BEST_MAE = True
+# save forecast results of best with RMSE
 SAVE_BEST_RMSE = True
 
 SAVE_PLOT = {
