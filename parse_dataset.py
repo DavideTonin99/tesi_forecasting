@@ -25,7 +25,7 @@ def load_csv_timestamp(fname, start_date=None, end_date=None):
     return ts
 
 
-def load_dataset(dataset_path, key, freq='W', start_date=None, end_date=None):
+def load_dataset(dataset_path, freq='W', start_date=None, end_date=None):
     ts = None
 
     if os.path.isdir(dataset_path):
@@ -44,5 +44,5 @@ def load_dataset(dataset_path, key, freq='W', start_date=None, end_date=None):
 
 
 if __name__ == "__main__":
-    ts = load_dataset(dataset_path=FOLDER, key='', freq='W', start_date=START_DATE, end_date=END_DATE)
+    ts = load_dataset(dataset_path=FOLDER, freq='W', start_date=START_DATE, end_date=END_DATE)
     ts.to_csv("./dataset/input.csv", header=True, index=True, index_label="week")
