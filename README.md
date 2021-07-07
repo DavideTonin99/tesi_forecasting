@@ -7,3 +7,7 @@
 
 ``main.py``: nella prima parte sono presenti delle COSTANTI per personalizzare l'esecuzione del programma.
 Si può selezionare la frequenza della serie, quali metodi di predizione eseguire, se eseguire auto arima o caricare i modelli da un file csv, se salvare i plot, i risultati e gli errori.
+
+### PYTHON
+	Versione: 3.9
+	Librerie: requirements.txt
