@@ -77,14 +77,14 @@ INPUT_PLOT_FOLDERS = {
 }
 
 OUTPUT_FORECAST_FOLDERS = {
-    'OUTPUT'    : os.path.join(OUTPUT_FOLDER, 'forecast_results'),
+    'OUTPUT'    : os.path.join(OUTPUT_FOLDER, 'forecast_results'), # base folder
     'ARIMA'     : os.path.join(OUTPUT_FOLDER, 'forecast_results/arima'),
     'STLARIMA'  : os.path.join(OUTPUT_FOLDER, 'forecast_results/stl_arima'),
     'NAIVE'     : os.path.join(OUTPUT_FOLDER, 'forecast_results/naive')
 }
 
 OUTPUT_PLOT_FOLDERS = {
-    'OUTPUT'    : os.path.join(OUTPUT_FOLDER, 'output_plot'),
+    'OUTPUT'    : os.path.join(OUTPUT_FOLDER, 'output_plot'),  # base folder
     'ARIMA'     : os.path.join(OUTPUT_FOLDER, 'output_plot/arima'),
     'STLARIMA'  : os.path.join(OUTPUT_FOLDER, 'output_plot/stl_arima'),
     'NAIVE'     : os.path.join(OUTPUT_FOLDER, 'output_plot/naive'),
@@ -92,9 +92,12 @@ OUTPUT_PLOT_FOLDERS = {
 }
 
 OUTPUT_SUMMARY_FOLDERS = {
-    'OUTPUT': os.path.join(OUTPUT_FOLDER, 'output_summary'),
+    'OUTPUT': os.path.join(OUTPUT_FOLDER, 'output_summary'),  # base folder
     'ARIMA' : os.path.join(OUTPUT_FOLDER, 'output_summary/arima')
 }
+
+# check if all folders exist
+# create directories if they don't exist
 
 if not os.path.isdir(FREQ_FOLDER):
     os.mkdir(FREQ_FOLDER)
